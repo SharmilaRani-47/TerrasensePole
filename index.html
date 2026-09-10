@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>TerraSense — AI Roadside Wildlife Intelligence</title>
+<meta name="description" content="TerraSense: an AI-powered roadside pole network that detects wildlife, verifies it, connects poles, and warns drivers in real time.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a2318'/%3E%3Ccircle cx='50' cy='38' r='14' fill='%23f5a623'/%3E%3Crect x='46' y='50' width='8' height='34' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand"><span class="dot"></span> TerraSense</div>
+  <a href="#deck" class="deck-btn">View Deck</a>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="top">
+  <svg class="logo-mark" viewBox="0 0 100 100" fill="none">
+    <circle cx="50" cy="50" r="48" fill="#0f3325" stroke="#2d7a51" stroke-width="2"/>
+    <circle cx="50" cy="38" r="13" fill="#f5a623"/>
+    <rect x="47" y="49" width="6" height="28" fill="#e9f3ec"/>
+    <path d="M30 84 Q50 70 70 84" stroke="#4a9d70" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </svg>
+  <h1>Terra<span>Sense</span></h1>
+  <p class="tagline">Detect Wildlife <span class="arrow">→</span> Warn Drivers <span class="arrow">→</span> Build Biodiversity Intelligence</p>
+  <p class="lede">An AI-powered roadside pole network that spots animals near highways, confirms the sighting, and warns approaching drivers in real time — before it becomes a collision.</p>
+  <div class="cta-row">
+    <a href="#demo" class="btn btn-amber">▶ Try the live demo</a>
+    <a href="#problem" class="btn btn-outline">See the problem</a>
+  </div>
+  <p class="team">Team TerraSense — Bachanagoni Pranitha · Lodem Vishnu Vardhan · Bangla Hasini Reddy · Danda Sudheer · Odela Keerthana</p>
+</header>
+
+<!-- ================= PROBLEM ================= -->
+<section class="block" id="problem">
+  <div class="container">
+    <span class="eyebrow">The Problem</span>
+    <h2 class="title">Wildlife movement and high-speed roads collide</h2>
+    <p class="subtitle">Animals cross roads searching for food, water and habitat — while vehicles move through the same corridors at highway speed. Existing efforts (camera traps, patrols, static signage) exist but work in silos and rarely reach the driver in time.</p>
+
+    <div class="stat-hero">
+      <div class="num">6,507</div>
+      <div class="desc">animals recorded in road-mortality studies across the Western Ghats, 1997–2023, spanning <strong>239 species</strong>.</div>
+    </div>
+    <p class="stat-sub">Every number is a life lost on a road that cuts through its home.</p>
+
+    <div class="table-wrap">
+      <table class="region-table">
+        <thead><tr><th>Region</th><th>Reported incidents</th><th>Key species affected</th></tr></thead>
+        <tbody>
+          <tr><td>Western Ghats</td><td class="num">6,507</td><td>Elephants, leopards, deer, wild boar</td></tr>
+          <tr><td>Central India</td><td class="num">2,000+</td><td>Tigers, leopards, deer</td></tr>
+          <tr><td>Eastern Ghats</td><td class="num">1,000+</td><td>Elephants, deer</td></tr>
+          <tr><td>North East</td><td class="num">800+</td><td>Elephants, hornbills</td></tr>
+          <tr><td>Himalayan region</td><td class="num">500+</td><td>Leopards, bears, deer</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="source-note">Source: Santhasivam et al., <em>Journal of Wildlife Science</em>, 2026 — review of wildlife road mortality in the Western Ghats (1997–2023).</p>
+  </div>
+</section>
+
+<!-- ================= SOLUTION ================= -->
+<section class="block alt" id="solution">
+  <div class="container">
+    <span class="eyebrow">Our Solution</span>
+    <h2 class="title">One system. Four steps. Three outcomes.</h2>
+    <p class="subtitle">TerraSense is an AI-powered roadside intelligence system that detects and verifies wildlife movement in real time — then connects roadside poles to warn drivers and build a live conservation dataset.</p>
+
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-num">01</div>
+        <h3>Detect</h3>
+        <div class="step-sub">Camera + Edge AI</div>
+        <p>Detects wildlife locally, in real time, right at the pole.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">02</div>
+        <h3>Verify</h3>
+        <div class="step-sub">Detection validation</div>
+        <p>Confirms the detection across consecutive frames to cut false alerts.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">03</div>
+        <h3>Connect</h3>
+        <div class="step-sub">Pole-to-pole network</div>
+        <p>Shares the alert with configured nearby poles — offline, over LoRa.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">04</div>
+        <h3>Warn</h3>
+        <div class="step-sub">Amber beacon</div>
+        <p>Warns approaching drivers before they ever reach the area.</p>
+      </div>
+    </div>
+
+    <div class="outcomes">
+      <span class="outcome-chip">🛣️ Safer roads</span>
+      <span class="outcome-chip">🦌 Protect wildlife</span>
+      <span class="outcome-chip">📊 Smarter monitoring</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEMO ================= -->
+<section class="block" id="demo">
+  <div class="container">
+    <span class="eyebrow">Try It Live</span>
+    <h2 class="title">Three ways to feel how it works</h2>
+    <p class="subtitle">No login, no install — this runs right in your browser. Pick a tab.</p>
+
+    <div class="tabbar" role="tablist">
+      <button class="tab-btn active" data-tab="sim">Corridor Sim</button>
+      <button class="tab-btn" data-tab="game">Verify Game</button>
+      <button class="tab-btn" data-tab="calc">Cost Calculator</button>
+    </div>
+
+    <!-- ---- Demo A: Corridor Simulation ---- -->
+    <div class="demo-panel active" id="panel-sim">
+      <div class="demo-card">
+        <p class="demo-hint"><strong>Tap any pole</strong> to simulate a wildlife crossing there — watch the alert relay <em>backward</em>, pole to pole, toward oncoming traffic, so drivers are warned 3–4 poles before they ever reach the animal.</p>
+
+        <div class="corridor-wrap">
+          <div class="corridor-sky"></div>
+          <div class="poles" id="poles-layer"></div>
+          <div class="road">
+            <div class="car" id="car">🚗</div>
+          </div>
+        </div>
+
+        <div class="sim-stats">
+          <div class="sim-stat"><div class="v" id="stat-latency">—</div><div class="l">Alert latency</div></div>
+          <div class="sim-stat"><div class="v" id="stat-events">0</div><div class="l">Events recorded</div></div>
+          <div class="sim-stat"><div class="v" id="stat-accuracy">96.4%</div><div class="l">Detection accuracy</div></div>
+        </div>
+        <p class="sim-log" id="sim-log">Tap a pole above to start a detection.</p>
+      </div>
+    </div>
+
+    <!-- ---- Demo B: Verify Game ---- -->
+    <div class="demo-panel" id="panel-game">
+      <div class="demo-card">
+        <p class="demo-hint">A quick trigger fires. <strong>You've got 3 seconds</strong> — real wildlife, or a false trigger? Then see how TerraSense's multi-frame verification calls it.</p>
+
+        <div id="game-progress" class="game-progress"></div>
+
+        <div id="game-play">
+          <div class="game-scene">
+            <div class="emoji" id="game-emoji">🦌</div>
+            <div class="caption" id="game-caption">Motion detected on Pole 3</div>
+            <div class="game-timerbar"><div class="fill" id="game-timerfill"></div></div>
+          </div>
+          <div class="game-choices">
+            <button class="choice-btn real" id="btn-real">🐾 Real animal</button>
+            <button class="choice-btn false" id="btn-false">🚫 False trigger</button>
+          </div>
+          <div class="game-feedback" id="game-feedback"></div>
+          <div class="game-score-row">
+            <span>You: <strong id="game-you">0/0</strong></span>
+            <span>Round <strong id="game-round">1/8</strong></span>
+          </div>
+        </div>
+
+        <div id="game-end" class="game-end" style="display:none;">
+          <div class="big" id="game-final">0/8</div>
+          <p>TerraSense's edge AI cross-checks every trigger across consecutive frames — catching what a quick glance can miss, and staying calm about the rest.</p>
+          <button class="btn btn-forest" id="game-replay">Play again</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---- Demo C: Cost Calculator ---- -->
+    <div class="demo-panel" id="panel-calc">
+      <div class="demo-card">
+        <p class="demo-hint">Drag to size a pilot corridor. Cost per pole is pulled straight from our Kaziranga pilot estimate (₹12,500/pole, incl. installation &amp; testing overhead).</p>
+
+        <div class="calc-row">
+          <div class="calc-label"><span>Corridor length</span><span class="val"><span id="calc-km-val">4</span> km</span></div>
+          <input type="range" id="calc-km" min="1" max="20" step="1" value="4">
+        </div>
+        <div class="calc-row">
+          <div class="calc-label"><span>Pole density</span><span class="val"><span id="calc-density-val">3.75</span> poles/km</span></div>
+          <input type="range" id="calc-density" min="2" max="6" step="0.25" value="3.75">
+        </div>
+
+        <div class="calc-result">
+          <div class="total"><span id="calc-total">₹2.1L</span> <small>total pilot estimate</small></div>
+          <div class="meta"><span id="calc-poles">15</span> poles · <span id="calc-perpole">₹12,500</span>/pole</div>
+          <div class="breakdown" id="calc-breakdown"></div>
+        </div>
+
+        <div class="calc-benchmark">
+          <div class="big">30–60%</div>
+          <div>potential reduction in wildlife-vehicle collisions, based on the pilot benchmark — regardless of corridor size.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VALUE PROP ================= -->
+<section class="block alt" id="value">
+  <div class="container">
+    <span class="eyebrow">Why It's Different</span>
+    <h2 class="title">One detection. Multiple connected warnings. One safer corridor.</h2>
+    <div class="value-grid">
+      <div class="value-card">
+        <div class="icon">📡</div>
+        <h3>Offline-first</h3>
+        <ul>
+          <li>Works without internet dependency</li>
+          <li>Local pole-to-pole communication</li>
+          <li>Reliable even in network blackouts</li>
+        </ul>
+      </div>
+      <div class="value-card">
+        <div class="icon">🔗</div>
+        <h3>Connected safety</h3>
+        <ul>
+          <li>One detection alerts nearby poles</li>
+          <li>Real-time warnings to drivers</li>
+          <li>Covers extended road corridors</li>
+        </ul>
+      </div>
+      <div class="value-card">
+        <div class="icon">📈</div>
+        <h3>Environmental intelligence</h3>
+        <ul>
+          <li>Tracks wildlife movement patterns</li>
+          <li>Identifies high-risk zones</li>
+          <li>Feeds long-term conservation planning</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PILOT ================= -->
+<section class="block" id="pilot">
+  <div class="container">
+    <span class="eyebrow">Pilot Estimate</span>
+    <h2 class="title">Kaziranga National Park, Assam</h2>
+    <p class="subtitle">Same roads. A safer tomorrow.</p>
+    <div class="pilot-card">
+      <div class="pilot-meta">
+        <div><div class="v">4 km</div><div class="l">corridor length</div></div>
+        <div><div class="v">~15</div><div class="l">TerraSense poles</div></div>
+        <div><div class="v">₹12,500</div><div class="l">cost per pole</div></div>
+      </div>
+      <div class="pilot-total">
+        <span>Total pilot estimate</span>
+        <span class="amt">~₹2.1 Lakh</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FIELD FEEDBACK ================= -->
+<section class="block alt" id="feedback">
+  <div class="container">
+    <span class="eyebrow">Field-Tested</span>
+    <h2 class="title">Shaped by the people on the ground</h2>
+    <div class="quote-card">
+      <p>"Insights from the ground make solutions stronger."</p>
+      <div class="src">— Feedback from DFO &amp; SI, Achampet Forest Department</div>
+    </div>
+    <div class="chip-row">
+      <span class="chip">Visual alerts preferred</span>
+      <span class="chip">Hotspot-based deployment</span>
+      <span class="chip">Offline-first is beneficial</span>
+      <span class="chip">Integrates with control rooms &amp; patrols</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CUSTOMERS ================= -->
+<section class="block" id="customers">
+  <div class="container">
+    <span class="eyebrow">Our Customers</span>
+    <h2 class="title">Working together for safer roads and healthier ecosystems</h2>
+    <div class="cust-grid">
+      <div class="cust-card"><div class="icon">🌲</div><h4>Forestry Department</h4><p>Forest management &amp; biodiversity protection</p></div>
+      <div class="cust-card"><div class="icon">🐅</div><h4>Wildlife Conservation Agencies</h4><p>Protecting endangered species</p></div>
+      <div class="cust-card"><div class="icon">🛣️</div><h4>NHAI</h4><p>National Highway Authority of India</p></div>
+      <div class="cust-card"><div class="icon">🤝</div><h4>Corporate CSR Agencies</h4><p>Sustainable-impact investment</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DECK ================= -->
+<section class="block alt" id="deck">
+  <div class="container">
+    <span class="eyebrow">The Full Pitch</span>
+    <h2 class="title">View or download the deck</h2>
+    <p class="subtitle">The complete TerraSense presentation, straight from our GitHub repo.</p>
+
+    <div class="deck-toolbar">
+      <button class="nav-btn" id="pdf-prev" aria-label="Previous page">‹</button>
+      <span id="pdf-pageinfo">Loading…</span>
+      <button class="nav-btn" id="pdf-next" aria-label="Next page">›</button>
+    </div>
+    <div class="deck-viewer" id="deck-viewer">
+      <span class="deck-loading" id="deck-loading">Loading deck preview…</span>
+    </div>
+
+    <div class="deck-actions">
+      <a class="btn btn-forest" href="assets/deck.pdf" download>⬇ Download PDF</a>
+      <a class="btn btn-amber" href="https://github.com/SharmilaRani-47/TerrasensePole/releases/download/v1.0/deck.pptx" target="_blank" rel="noopener">⬇ Download PPTX</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="closing">"We are not just monitoring roads; <strong>we are protecting the life around them.</strong>"</p>
+  <p class="team-line">Team TerraSense</p>
+  <p class="team-line">Bachanagoni Pranitha · Lodem Vishnu Vardhan · Bangla Hasini Reddy · Danda Sudheer · Odela Keerthana</p>
+  <p class="fine">Built for the hackathon floor. Runs entirely in your browser — no login, no install.</p>
+</footer>
+
+<script src="assets/vendor/pdf.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
